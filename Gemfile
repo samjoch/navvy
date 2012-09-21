@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 group :active_record do
-  gem 'activerecord', '>= 2.3.5'
+  gem 'activerecord', '>= 3.2.0'
 end
 
 group :data_mapper do
@@ -19,7 +19,7 @@ group :sequel do
 end
 
 group :mongoid do
-  gem 'mongoid', '>= 2.0.beta'
+  gem 'mongoid', "~> 3.0.0"
   gem 'builder'
   gem 'tzinfo'
 end
